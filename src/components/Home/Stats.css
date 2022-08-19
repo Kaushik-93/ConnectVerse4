@@ -3,8 +3,3 @@
   background-color: #e9e8e8;
   color: #050850;
 }
-.stats{
-    display: grid;
-    grid-template-rows:repeat(2,1fr) ;
-    grid-template-columns:repeat(2,1fr);
-}
