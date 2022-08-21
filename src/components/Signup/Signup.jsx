@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Signup.css";
 import Signupimg from "../images/Signup.jpg";
 import {
@@ -80,12 +80,12 @@ const Signup = () => {
                         <FormControlLabel
                           value="female"
                           control={<Radio />}
-                          label="Yes"
+                          label="Female"
                         />
                         <FormControlLabel
                           value="male"
                           control={<Radio />}
-                          label="No"
+                          label="Male"
                         />
                       </RadioGroup>
                     </FormGroup>
